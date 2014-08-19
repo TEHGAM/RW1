@@ -1,4 +1,4 @@
-version=12;
+﻿version=12;
 class Mission
 {
 	addOns[]=
@@ -3930,7 +3930,7 @@ class Mission
 			vehicle="O_Truck_03_repair_F";
 			leader=1;
 			skill=0.46666664;
-			init="veh = [this, 10, 500] execVM ""scripts\vehicle.sqf"";";
+			init="veh = [this, 10, 1000] execVM ""scripts\vehicle.sqf"";";
 		};
 		class Item48
 		{
@@ -3942,7 +3942,7 @@ class Mission
 			vehicle="B_Truck_01_medical_F";
 			leader=1;
 			skill=0.46666664;
-			init="veh = [this, 10, 500] execVM ""scripts\vehicle.sqf"";";
+			init="veh = [this, 10, 1000] execVM ""scripts\vehicle.sqf"";";
 		};
 		class Item49
 		{
@@ -3989,7 +3989,7 @@ class Mission
 			vehicle="O_Heli_Light_02_unarmed_F";
 			leader=1;
 			skill=0.46666664;
-			init="veh = [this, 10, 1000] execVM ""scripts\vehicle.sqf""; clearweaponcargo this;  clearmagazinecargo this;";
+			init="veh = [this, 10, 500] execVM ""scripts\vehicle.sqf""; clearweaponcargo this;  clearmagazinecargo this;";
 		};
 		class Item53
 		{
@@ -4001,7 +4001,7 @@ class Mission
 			vehicle="B_Truck_01_Repair_F";
 			leader=1;
 			skill=0.46666664;
-			init="veh = [this, 10, 500] execVM ""scripts\vehicle.sqf"";";
+			init="veh = [this, 10, 1000] execVM ""scripts\vehicle.sqf"";";
 		};
 		class Item54
 		{
@@ -4013,7 +4013,7 @@ class Mission
 			vehicle="O_Truck_03_medical_F";
 			leader=1;
 			skill=0.46666664;
-			init="veh = [this, 10, 500] execVM ""scripts\vehicle.sqf"";";
+			init="veh = [this, 10, 1000] execVM ""scripts\vehicle.sqf"";";
 		};
 		class Item55
 		{
@@ -4025,7 +4025,7 @@ class Mission
 			vehicle="B_Truck_01_fuel_F";
 			leader=1;
 			skill=0.46666664;
-			init="veh = [this, 10, 500] execVM ""scripts\vehicle.sqf"";";
+			init="veh = [this, 10, 1000] execVM ""scripts\vehicle.sqf"";";
 		};
 		class Item56
 		{
@@ -4049,7 +4049,7 @@ class Mission
 			vehicle="O_Truck_03_fuel_F";
 			leader=1;
 			skill=0.46666664;
-			init="veh = [this, 10, 500] execVM ""scripts\vehicle.sqf"";";
+			init="veh = [this, 10, 1000] execVM ""scripts\vehicle.sqf"";";
 		};
 		class Item58
 		{
@@ -4107,7 +4107,7 @@ class Mission
 			vehicle="O_Heli_Light_02_unarmed_F";
 			leader=1;
 			skill=0.46666664;
-			init="veh = [this, 10, 1000] execVM ""scripts\vehicle.sqf""; clearweaponcargo this;  clearmagazinecargo this;";
+			init="veh = [this, 10, 500] execVM ""scripts\vehicle.sqf""; clearweaponcargo this;  clearmagazinecargo this;";
 		};
 		class Item63
 		{
@@ -4120,7 +4120,7 @@ class Mission
 			leader=1;
 			skill=0.46666664;
 			text="MHQ_East";
-			init="veh = [this, 100, 0] execVM ""scripts\vehicle.sqf"";";
+			init="veh = [this, 100, 1000] execVM ""scripts\vehicle.sqf"";";
 		};
 		class Item64
 		{
@@ -4133,7 +4133,7 @@ class Mission
 			leader=1;
 			skill=0.46666664;
 			text="MHQ_West";
-			init="veh = [this, 100, 0] execVM ""scripts\vehicle.sqf"";";
+			init="veh = [this, 100, 1000] execVM ""scripts\vehicle.sqf"";";
 		};
 		class Item65
 		{
@@ -4334,7 +4334,7 @@ class Mission
 			vehicle="B_Heli_Light_01_F";
 			leader=1;
 			skill=0.46666664;
-			init="veh = [this, 10, 50] execVM ""scripts\vehicle.sqf""; clearweaponcargo this;  clearmagazinecargo this;";
+			init="veh = [this, 10, 500] execVM ""scripts\vehicle.sqf""; clearweaponcargo this;  clearmagazinecargo this;";
 		};
 		class Item83
 		{
@@ -4357,7 +4357,7 @@ class Mission
 			vehicle="B_Heli_Light_01_F";
 			leader=1;
 			skill=0.46666664;
-			init="veh = [this, 10, 50] execVM ""scripts\vehicle.sqf""; clearweaponcargo this;  clearmagazinecargo this;";
+			init="veh = [this, 10, 500] execVM ""scripts\vehicle.sqf""; clearweaponcargo this;  clearmagazinecargo this;";
 		};
 		class Item85
 		{
@@ -4380,7 +4380,7 @@ class Mission
 			vehicle="B_Heli_Light_01_F";
 			leader=1;
 			skill=0.46666664;
-			init="veh = [this, 10, 50] execVM ""scripts\vehicle.sqf""; clearweaponcargo this;  clearmagazinecargo this;";
+			init="veh = [this, 10, 500] execVM ""scripts\vehicle.sqf""; clearweaponcargo this;  clearmagazinecargo this;";
 		};
 		class Item87
 		{
@@ -4403,7 +4403,7 @@ class Mission
 			vehicle="B_Heli_Light_01_F";
 			leader=1;
 			skill=0.46666664;
-			init="veh = [this, 10, 50] execVM ""scripts\vehicle.sqf""; clearweaponcargo this;  clearmagazinecargo this;";
+			init="veh = [this, 10, 500] execVM ""scripts\vehicle.sqf""; clearweaponcargo this;  clearmagazinecargo this;";
 		};
 		class Item89
 		{
@@ -4426,7 +4426,7 @@ class Mission
 			vehicle="I_Heli_light_03_unarmed_F";
 			leader=1;
 			skill=0.46666664;
-			init="veh = [this, 10, 50] execVM ""scripts\vehicle.sqf""; clearweaponcargo this;  clearmagazinecargo this;";
+			init="veh = [this, 10, 500] execVM ""scripts\vehicle.sqf""; clearweaponcargo this;  clearmagazinecargo this;";
 		};
 		class Item91
 		{
@@ -4449,7 +4449,7 @@ class Mission
 			vehicle="I_Heli_light_03_unarmed_F";
 			leader=1;
 			skill=0.46666664;
-			init="veh = [this, 10, 50] execVM ""scripts\vehicle.sqf""; clearweaponcargo this;  clearmagazinecargo this;";
+			init="veh = [this, 10, 500] execVM ""scripts\vehicle.sqf""; clearweaponcargo this;  clearmagazinecargo this;";
 		};
 		class Item93
 		{
@@ -4472,7 +4472,7 @@ class Mission
 			vehicle="I_Heli_light_03_unarmed_F";
 			leader=1;
 			skill=0.46666664;
-			init="veh = [this, 10, 50] execVM ""scripts\vehicle.sqf""; clearweaponcargo this;  clearmagazinecargo this;";
+			init="veh = [this, 10, 500] execVM ""scripts\vehicle.sqf""; clearweaponcargo this;  clearmagazinecargo this;";
 		};
 		class Item95
 		{
@@ -4495,7 +4495,7 @@ class Mission
 			vehicle="I_Heli_light_03_unarmed_F";
 			leader=1;
 			skill=0.46666664;
-			init="veh = [this, 10, 50] execVM ""scripts\vehicle.sqf""; clearweaponcargo this;  clearmagazinecargo this;";
+			init="veh = [this, 10, 500] execVM ""scripts\vehicle.sqf""; clearweaponcargo this;  clearmagazinecargo this;";
 		};
 		class Item97
 		{
