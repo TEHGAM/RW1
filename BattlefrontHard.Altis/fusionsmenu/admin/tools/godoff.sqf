@@ -1,6 +1,6 @@
-cutText ["Режим бога включен.", "PLAIN"];
+cutText ["Режим бога выключен", "PLAIN"];
 player removeAllEventHandlers "handleDamage";
-player addEventHandler ["handleDamage", {false}];
+player addEventHandler ["handleDamage", {true}];
 	player removeAction line1;
 	player removeAction line2;
 	player removeAction godmode;

@@ -1,4 +1,4 @@
-titleText ["Режим бога для машин включен","PLAIN DOWN"]; titleFadeOut 4;
+titleText ["Режим бога для машин выключен","PLAIN DOWN"]; titleFadeOut 4;
 
 	player removeAction line1;
 	player removeAction line2;
@@ -10,8 +10,8 @@ titleText ["Режим бога для машин включен","PLAIN DOWN"];
 	player removeAction hplay;
 while {alive ( vehicle player )} do 
 {
-	vehicle player setfuel 1;
-	vehicle player setvehicleammo 1;
-	vehicle player setdammage 0;
+	vehicle player setfuel 0;
+	vehicle player setvehicleammo 0;
+	vehicle player setdammage 1;
 	sleep 0.001;
 };

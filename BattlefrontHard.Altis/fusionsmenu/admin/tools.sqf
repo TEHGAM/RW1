@@ -8,15 +8,15 @@ _EXECscript5 = 'player execVM "'+_pathtovehicles+'%1"';
 _EXECscript6 = 'player execVM "'+_pathtosoldier+'%1"';
 
 
-if ((getPlayerUID player) in ["76561198001377614"]) then { //all admins
-	if ((getPlayerUID player) in ["76561198001377614"]) then { //Admins Go Here aswell
+if ((getPlayerUID player) in ["76561198074604871"]) then { //all admins
+	if ((getPlayerUID player) in ["76561198074604871"]) then { //Admins Go Here aswell
 		adminmenu =
 		[
 			["Fusions Menu",true],
-				["Tools", [4], "#USER:ToolsMenu", -5, [["expression", ""]], "1", "1"],
-				["Cars", [4], "#USER:VehicleMenu", -5, [["expression", ""]], "1", "1"],
-				["Weapons", [5], "#USER:WeaponMenu", -5, [["expression", ""]], "1", "1"],
-				["Spawn Groups", [5], "#USER:Soldier", -5, [["expression", ""]], "1", "1"],
+				["Инструменты", [4], "#USER:ToolsMenu", -5, [["expression", ""]], "1", "1"],
+				["Машины", [4], "#USER:VehicleMenu", -5, [["expression", ""]], "1", "1"],
+				["Оружие", [5], "#USER:WeaponMenu", -5, [["expression", ""]], "1", "1"],
+				["Spawn групп", [5], "#USER:Soldier", -5, [["expression", ""]], "1", "1"],
 				["", [-1], "", -5, [["expression", ""]], "1", "0"],
 			["Exit", [13], "", -3, [["expression", ""]], "1", "1"]		
 		];};
@@ -31,12 +31,14 @@ adminmenu =
 ToolsMenu =
 [
 	["Tools",true],
-        ["Teleport", [2],  "", -5, [["expression", format[_EXECscript1,"teleport.sqf"]]], "1", "1"],
-		["Teleport Player To Me", [3],  "", -5, [["expression", format[_EXECscript1,"tptome.sqf"]]], "1", "1"],		
-        ["God Mode", [4],  "", -5, [["expression", format[_EXECscript1,"god.sqf"]]], "1", "1"],
-		["Car God Mode", [5],  "", -5, [["expression", format[_EXECscript1,"cargod.sqf"]]], "1", "1"],
-		["Heal Self", [6],  "", -5, [["expression", format[_EXECscript1,"heal.sqf"]]], "1", "1"],
-		["Heal Player(s)", [7],  "", -5, [["expression", format[_EXECscript1,"healp.sqf"]]], "1", "1"],
+        ["Телепорт", [2],  "", -5, [["expression", format[_EXECscript1,"teleport.sqf"]]], "1", "1"],
+		["Телепортировать игрока ко мне", [3],  "", -5, [["expression", format[_EXECscript1,"tptome.sqf"]]], "1", "1"],		
+        ["Режим бога", [4],  "", -5, [["expression", format[_EXECscript1,"god.sqf"]]], "1", "1"],
+		["Режим бога (выключить)", [4],  "", -5, [["expression", format[_EXECscript1,"godoff.sqf"]]], "1", "1"],
+		["Режим бога для машин", [5],  "", -5, [["expression", format[_EXECscript1,"cargod.sqf"]]], "1", "1"],
+		["Режим бога для машин (выключить)", [5],  "", -5, [["expression", format[_EXECscript1,"cargodoff.sqf"]]], "1", "1"],
+		["Лечить себя", [6],  "", -5, [["expression", format[_EXECscript1,"heal.sqf"]]], "1", "1"],
+		["Лечить игрока:", [7],  "", -5, [["expression", format[_EXECscript1,"healp.sqf"]]], "1", "1"],
 		["", [-1], "", -5, [["expression", ""]], "1", "0"],
 			["Exit", [13], "", -3, [["expression", ""]], "1", "1"]
 ];
