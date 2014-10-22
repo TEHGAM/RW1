@@ -1,4 +1,4 @@
-﻿version=12;
+version=12;
 class Mission
 {
 	addOns[]=
@@ -38,8 +38,7 @@ class Mission
 		"A3_Modules_F_Curator_Lightning",
 		"A3_Soft_F_Gamma_Offroad",
 		"a3_soft_f_offroad_01",
-		"task_force_radio",
-		
+		"task_force_radio"
 	};
 	addOnsAuto[]=
 	{
