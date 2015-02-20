@@ -10,7 +10,7 @@ allowFunctionsLog = 1;
 
 author="Cleric и mexan";
 OnLoadName="[PvPvE] Battlefront";
-OnLoadMission="Война - фигня, главное - маневры!";
+OnLoadMission="v1.5 - редакция сообщества tehgam.com";
 loadScreen="images\tehgam.jpg";
 
 #include "VAS\menu.hpp"
