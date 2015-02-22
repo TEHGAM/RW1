@@ -117,7 +117,7 @@ switch (_weather) do {
 	case 11: { //Heavy Fog
 		_pingTime setOvercast 0.75;
 		_pingTime setFog 0.75;
-		_pingTime setRain 0;
+		_pingTime setRain 1;
 		_pingTime setRainbow 0;
 		_pingTime setWindStr 0;
 		_pingTime setWindForce 0;
